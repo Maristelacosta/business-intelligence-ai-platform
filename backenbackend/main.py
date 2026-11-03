@@ -13,6 +13,7 @@ def status():
     return {
         "status": "online"
     }
+
 @app.get("/usuarios")
 def listar_usuarios():
     return [
@@ -27,7 +28,8 @@ def listar_usuarios():
             "cargo": "Analista"
         }
     ]
-    @app.get("/ativos")
+
+@app.get("/ativos")
 def listar_ativos():
     return [
         {
