@@ -1,48 +1,36 @@
-# 🚀 Plataforma de IA SmartBI
+# SmartBI IA
 
-Plataforma inteligente de gestão empresarial com Business Intelligence, Analytics e Inteligência Artificial para apoio à tomada de decisão baseada em dados.
+Plataforma de Inteligência de Negócios com Inteligência Artificial destinada à análise de dados corporativos, geração de insights estratégicos e automação de processos analíticos.
 
-## 📋 Sobre O Projeto
+## Recursos
 
-A plataforma *SmartBI AI* foi desenvolvida para integrar gestão operacional, análise de dados e inteligência artificial em uma única solução.
-
-A plataforma permite:
-- Gestão de ativos de TI
-- Controle de chamados e suporte
-- Painéis de controle (Dashboards) de Business Intelligence
-- Monitoramento de indicadores (KPIs)
+- Dashboards interativos
+- Análises preditivas com IA
+- Chat corporativo inteligente
+- Indicadores em tempo real
+- Gestão de ativos
+- Gestão de chamados
 - Relatórios automatizados
-- Insights gerados por Inteligência Artificial
-- Apoio à tomada de decisão estratégica
 
-## 🎯 Objetivos
+## Tecnologias
 
-- Centralizar informações empresariais cruciais em um único ecossistema.
-- Auxiliar na gestão de ativos e suporte técnico.
-- Acompanhar indicadores de desempenho em tempo real.
-- Automatizar a geração de relatórios gerenciais.
-- Utilizar IA para análise preditiva e insights estratégicos.
-- Auxiliar gestores em tomadas de decisões ágeis e baseadas em dados.
+- Next.js
+- TypeScript
+- Python
+- FastAPI
+- PostgreSQL
+- Docker
 
-## 🏗️ Arquitetura da Solução
+## Roadmap
 
-Frontend (Next.js + TypeScript + Tailwind CSS)
-        │
-        ▼
-Backend (FastAPI - Python)
-        │
-        ▼
-Banco de Dados (PostgreSQL)
-        │
-        ▼
-Dashboards (Power BI / Streamlit)
-        │
-        ▼
-Módulo de Inteligência Artificial (OpenAI / ML)
+### Versão 1.0
+- Dashboard executivo
+- Cadastro de ativos
+- KPIs financeiros
+- Login e autenticação
 
-## 💻 Como Executar o Projeto
-
-### Frontend
-1. Entre na pasta do frontend:
-   ```bash
-   cd frontend
+### Versão 2.0
+- IA conversacional
+- Previsão de demanda
+- Alertas inteligentes
+- Relatórios automáticos
