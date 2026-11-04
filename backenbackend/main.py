@@ -60,3 +60,11 @@ def criar_ativo(ativo: dict):
         "mensagem": "Ativo criado",
         "dados": ativo
     }
+@app.get("/dashboard")
+def dashboard():
+    return {
+        "usuarios": 2,
+        "ativos": 2,
+        "status": "operacional",
+        "versao": "1.0"
+    }
