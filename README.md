@@ -1,36 +1,86 @@
-# SmartBI IA
+# 🚀 SmartBI IA
 
 Plataforma de Inteligência de Negócios com Inteligência Artificial destinada à análise de dados corporativos, geração de insights estratégicos e automação de processos analíticos.
 
-## Recursos
+---
 
-- Dashboards interativos
-- Análises preditivas com IA
-- Chat corporativo inteligente
-- Indicadores em tempo real
+## 📋 Status do Projeto
+
+⚠️ Projeto em desenvolvimento inicial.
+
+Atualmente o repositório contém documentação, modelo de banco de dados e definições de roadmap. As funcionalidades descritas estão em fase de planejamento e implementação.
+
+---
+
+## 🎯 Objetivos
+
+O SmartBI IA tem como objetivo fornecer uma plataforma integrada para:
+
+- Business Intelligence
 - Gestão de ativos
 - Gestão de chamados
+- Monitoramento de indicadores
+- Análise de dados corporativos
+- Inteligência Artificial aplicada aos negócios
+
+---
+
+## ✨ Recursos Planejados
+
+### Business Intelligence
+
+- Dashboards interativos
+- Indicadores em tempo real
+- KPIs financeiros
 - Relatórios automatizados
 
-## Tecnologias
+### Inteligência Artificial
+
+- IA conversacional
+- Análises preditivas
+- Geração de insights estratégicos
+- Alertas inteligentes
+
+### Gestão Corporativa
+
+- Gestão de ativos
+- Gestão de chamados
+- Monitoramento operacional
+
+---
+
+## 🛠️ Tecnologias Planejadas
+
+### Frontend
 
 - Next.js
 - TypeScript
+
+### Backend
+
 - Python
 - FastAPI
+
+### Banco de Dados
+
 - PostgreSQL
+
+### Infraestrutura
+
 - Docker
 
-## Roadmap
+---
 
-### Versão 1.0
-- Dashboard executivo
-- Cadastro de ativos
-- KPIs financeiros
-- Login e autenticação
+## 📂 Estrutura Atual do Repositório
 
-### Versão 2.0
-- IA conversacional
-- Previsão de demanda
-- Alertas inteligentes
-- Relatórios automáticos
+```text
+business-intelligence-ai-platform/
+│
+├── backenbackend/
+├── docs/
+├── README.md
+├── roadmap.md
+├── schema.sql
+├── assets
+├── dashboards
+└── frontend
