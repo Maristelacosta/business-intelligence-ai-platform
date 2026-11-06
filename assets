@@ -1,4 +1,5 @@
-imagens
-logos
-prints das telas
-diagramas
+return [
+    ...
+]
+    @app.get("/ativos")
+def listar_ativos():
