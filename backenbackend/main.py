@@ -6,20 +6,17 @@ app = FastAPI(
     version="1.0.0"
 )
 
-
 @app.get("/")
 def home():
     return {
         "mensagem": "Bem-vindo à IA SmartBI"
     }
 
-
 @app.get("/status")
 def status():
     return {
         "status": "online"
     }
-
 
 @app.get("/usuarios")
 def listar_usuarios():
@@ -35,7 +32,6 @@ def listar_usuarios():
             "cargo": "Analista"
         }
     ]
-
 
 @app.get("/ativos")
 def listar_ativos():
@@ -53,7 +49,6 @@ def listar_ativos():
             "status": "Ativo"
         }
     ]
-
 
 @app.get("/info")
 def info():
